@@ -1,0 +1,8 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"extends": ["@nedcloarbr/biome-config/nestjs"],
+	"files": {
+		"ignore": ["**/dist/*.*", "**/.docker/*.*"],
+		"ignoreUnknown": true
+	}
+}

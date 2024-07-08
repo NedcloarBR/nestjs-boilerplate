@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  api:
+    container_name: nestjs_template_api
+    build: .
+    restart: always
+    tty: true
+    volumes:
+      - .:/usr/app
+    working_dir: /usr/app
+    command: >
+      make start:prod
+    networks:
+      - nestjs_template_network
+
+networks:
+  nestjs_template_network:
+    driver: bridge
