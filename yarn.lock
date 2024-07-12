@@ -618,10 +618,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nedcloarbr/biome-config@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@nedcloarbr/biome-config@npm:1.1.0"
-  checksum: 10c0/9932198e6ec1b4716dd41b6e7ce18f22d4729f6fb4a25ed098b12f5f873cec051a3f6495473be9c4166e831d50d45168b5df896fb417da0fcabbbfcf951694d4
+"@nedcloarbr/biome-config@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@nedcloarbr/biome-config@npm:1.2.1"
+  checksum: 10c0/97dd8477874f1789804ebae9e1a29c00d7b4dac792ca1ebe5c134272825ede9ef2d3808d37cea568fcbdf5d5234dcd8ff2fd0cca9db96fc10fb9cf72b3ffde12
   languageName: node
   linkType: hard
 
@@ -3606,7 +3606,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:^1.8.3"
     "@fastify/static": "npm:^7.0.4"
-    "@nedcloarbr/biome-config": "npm:^1.1.0"
+    "@nedcloarbr/biome-config": "npm:^1.2.1"
     "@nestjs/cli": "npm:^10.0.0"
     "@nestjs/common": "npm:^10.0.0"
     "@nestjs/config": "npm:^3.2.3"
