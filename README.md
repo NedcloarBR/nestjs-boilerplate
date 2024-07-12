@@ -31,7 +31,7 @@
 - [`Fastify`](https://fastify.dev/) instead of [Express](https://expressjs.com/)
 - [`@nestjs/config`](https://docs.nestjs.com/techniques/configuration) Module initialized
 - `class-validator`, `class-transformer` and `ValidationPipe` [configured](https://docs.nestjs.com/techniques/validation)
-- [`BiomeJS`](https://biomejs.dev) configured with `@nedcloarbr/biome-config`(nestjs) instead of [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
+- [`BiomeJS`](https://biomejs.dev) configured with `@nedcloarbr/biome-config` instead of [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
 - [`@nestjs/swagger`](https://docs.nestjs.com/openapi/introduction) Configured
 - [`Vitest`](https://vitest.dev/) with Vitest UI and coverage-v8 instead of [Jest](https://jestjs.io/)
 - [`Docker`](https://www.docker.com/) compose file
