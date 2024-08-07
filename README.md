@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript custom starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript custom starter boilerplate repository.
 
 ### Changes
 

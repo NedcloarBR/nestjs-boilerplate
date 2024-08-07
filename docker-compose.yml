@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   api:
-    container_name: nestjs_template_api
+    container_name: nestjs_boilerplate_api
     build: .
     restart: always
     tty: true
@@ -12,8 +12,8 @@ services:
     command: >
       make start:prod
     networks:
-      - nestjs_template_network
+      - nestjs_boilerplate_network
 
 networks:
-  nestjs_template_network:
+  nestjs_boilerplate_network:
     driver: bridge

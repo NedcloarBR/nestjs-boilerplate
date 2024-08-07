@@ -1,17 +1,17 @@
 {
-	"name": "nestjs-template",
+	"name": "nestjs-boilerplate",
 	"version": "0.0.1",
-	"description": "NestJS Template Project",
+	"description": "NestJS Boilerplate Project",
 	"author": {
 		"name": "Miguel Alexandre Uhlein <NedcloarBR>",
 		"email": "nedcloar1@hotmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/NedcloarBR/nestjs-template.git"
+		"url": "git+https://github.com/NedcloarBR/nestjs-boilerplate.git"
 	},
 	"bugs": {
-		"url": "https://github.com/NedcloarBR/nestjs-template/issues"
+		"url": "https://github.com/NedcloarBR/nestjs-boilerplate/issues"
 	},
 	"private": true,
 	"license": "MIT",
