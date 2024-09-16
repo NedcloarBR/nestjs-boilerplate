@@ -5,12 +5,10 @@ services:
     container_name: nestjs_boilerplate_api
     build: .
     restart: always
-    tty: true
-    volumes:
-      - .:/usr/app
-    working_dir: /usr/app
-    command: >
-      make start:prod
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "${PORT}:${PORT}"
     networks:
       - nestjs_boilerplate_network
 
