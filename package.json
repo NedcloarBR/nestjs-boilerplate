@@ -49,6 +49,8 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.0",
+		"@commitlint/cli": "^19.5.0",
+		"@commitlint/config-angular": "^19.5.0",
 		"@nedcloarbr/biome-config": "^1.5.0",
 		"@nestjs/cli": "^10.0.0",
 		"@nestjs/schematics": "^10.0.0",
