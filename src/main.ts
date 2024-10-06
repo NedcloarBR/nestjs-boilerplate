@@ -17,6 +17,8 @@ async function bootstrap() {
 	const configModule = app.get<ConfigService>(ConfigService);
 	const PORT = configModule.getOrThrow<number>("PORT");
 
+	app.setGlobalPrefix("api");
+
 	app.useGlobalPipes(
 		new ValidationPipe({
 			always: true,
@@ -34,7 +36,7 @@ async function bootstrap() {
 		.build();
 
 	const swaggerDocument = SwaggerModule.createDocument(app, swaggerConfig);
-	SwaggerModule.setup("api", app, swaggerDocument);
+	SwaggerModule.setup("docs", app, swaggerDocument);
 
 	try {
 		await app.listen(PORT, "0.0.0.0");
