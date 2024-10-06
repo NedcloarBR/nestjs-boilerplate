@@ -7,17 +7,22 @@ import {
 } from "@nestjs/platform-fastify";
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 import { AppModule } from "./app.module";
+import { otelSDK } from "./lib/metrics";
 
 async function bootstrap() {
+	await otelSDK.start();
+
 	const app = await NestFactory.create<NestFastifyApplication>(
 		AppModule,
 		new FastifyAdapter(),
 	);
 	const logger = new Logger("main");
 	const configModule = app.get<ConfigService>(ConfigService);
-	const PORT = configModule.getOrThrow<number>("PORT");
+	const PORT = configModule.getOrThrow<number>("API_PORT");
 
 	app.setGlobalPrefix("api");
+
+	app.enableShutdownHooks();
 
 	app.useGlobalPipes(
 		new ValidationPipe({

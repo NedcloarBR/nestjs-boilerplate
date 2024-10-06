@@ -1,3 +1,7 @@
+include:
+  - path: ./docker-compose.metrics.yml
+    env_file: .env
+
 services:
   api:
     container_name: nestjs_boilerplate_api
@@ -10,7 +14,7 @@ services:
     environment:
       - NODE_ENV=production
     ports:
-      - "${PORT}:${PORT}"
+      - "${API_PORT}:${API_PORT}"
     networks:
       - nestjs_boilerplate_network
 

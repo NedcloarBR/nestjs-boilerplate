@@ -64,3 +64,8 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 !.yarn/versions
 #!.yarn/cache
 .pnp.*
+
+# Metrics
+/metrics/data/tempo-data/
+/metrics/data/loki-data/
+/metrics/data/logs/
