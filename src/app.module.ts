@@ -4,7 +4,7 @@ import { OpenTelemetryModule } from "nestjs-otel";
 import { PrismaModule } from "nestjs-prisma";
 import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
-import { HealthModule } from "./modules/health/health.module";
+import { HealthModule } from "./modules";
 
 @Module({
 	imports: [

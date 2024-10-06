@@ -5,9 +5,8 @@ import {
 	FastifyAdapter,
 	NestFastifyApplication,
 } from "@nestjs/platform-fastify";
-import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 import { AppModule } from "./app.module";
-import { otelSDK } from "./lib/metrics";
+import { createSwagger, otelSDK } from "./lib";
 
 async function bootstrap() {
 	await otelSDK.start();
@@ -33,15 +32,7 @@ async function bootstrap() {
 		}),
 	);
 
-	const swaggerConfig = new DocumentBuilder()
-		.setTitle("NestJS boilerplate")
-		.setDescription("The NestJS API boilerplate description")
-		.setVersion("1.0")
-		.addTag("boilerplate")
-		.build();
-
-	const swaggerDocument = SwaggerModule.createDocument(app, swaggerConfig);
-	SwaggerModule.setup("docs", app, swaggerDocument);
+	await createSwagger(app);
 
 	try {
 		await app.listen(PORT, "0.0.0.0");
