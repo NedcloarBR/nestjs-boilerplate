@@ -41,7 +41,11 @@
 ## Installation
 
 ```bash
+# install packages
 $ yarn install
+
+# initialize prisma client and sync with database
+$ yarn prisma migrate dev
 ```
 
 ## Running the app
