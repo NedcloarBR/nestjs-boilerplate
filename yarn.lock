@@ -878,10 +878,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nedcloarbr/biome-config@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "@nedcloarbr/biome-config@npm:1.5.0"
-  checksum: 10c0/997e4e7a2ee24a35d33130cb9f3fd5fbb1910e54896690bca373c60e26998a80afcd05c9155632a5bfa6b6e04477f92f1e1641a291762b80fe6cd574062319e6
+"@nedcloarbr/biome-config@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "@nedcloarbr/biome-config@npm:1.6.0"
+  checksum: 10c0/abd280ce160e0a966924d57f93ac03fa250bf1ba64723b5247b6ae7113cd238ca44950f0da9f48ad8e5055fcb5d6332a8afd8aa5b9075de7f205022ace7ec272
   languageName: node
   linkType: hard
 
@@ -5891,7 +5891,7 @@ __metadata:
     "@commitlint/cli": "npm:^19.5.0"
     "@commitlint/config-angular": "npm:^19.5.0"
     "@fastify/static": "npm:^7.0.4"
-    "@nedcloarbr/biome-config": "npm:^1.5.0"
+    "@nedcloarbr/biome-config": "npm:^1.6.0"
     "@nestjs/axios": "npm:^3.0.3"
     "@nestjs/cli": "npm:^10.0.0"
     "@nestjs/common": "npm:^10.0.0"
