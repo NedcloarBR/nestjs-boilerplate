@@ -933,12 +933,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:^10.0.0":
-  version: 10.3.10
-  resolution: "@nestjs/common@npm:10.3.10"
+"@nestjs/common@npm:^10.4.5":
+  version: 10.4.5
+  resolution: "@nestjs/common@npm:10.4.5"
   dependencies:
     iterare: "npm:1.2.1"
-    tslib: "npm:2.6.3"
+    tslib: "npm:2.7.0"
     uid: "npm:2.0.2"
   peerDependencies:
     class-transformer: "*"
@@ -950,7 +950,7 @@ __metadata:
       optional: true
     class-validator:
       optional: true
-  checksum: 10c0/8797d7d89b666dc36101faf97a901dc11894c26cbc221317117a7f823019defdaf938d28fa312417f5b481e0a28c1ec45cefdade406e7c691e5fc9a8da96fb11
+  checksum: 10c0/fc0b6e548c24bcfb3965ea861544150b68927b6ab01f740e8f9060f14e4a62a86995e948cb80c853f253821479efbfc534aac114064253f83b44f59ed1b3dd0d
   languageName: node
   linkType: hard
 
@@ -5897,7 +5897,7 @@ __metadata:
     "@nedcloarbr/biome-config": "npm:^1.6.0"
     "@nestjs/axios": "npm:^3.0.3"
     "@nestjs/cli": "npm:^10.0.0"
-    "@nestjs/common": "npm:^10.0.0"
+    "@nestjs/common": "npm:^10.4.5"
     "@nestjs/config": "npm:^3.2.3"
     "@nestjs/core": "npm:^10.0.0"
     "@nestjs/platform-fastify": "npm:^10.4.5"
