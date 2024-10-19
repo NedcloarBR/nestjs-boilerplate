@@ -72,7 +72,7 @@
 		"@nestjs/schematics": "^10.0.0",
 		"@nestjs/testing": "^10.0.0",
 		"@types/node": "^22.7.7",
-		"@vitest/coverage-v8": "^2.0.1",
+		"@vitest/coverage-v8": "^2.1.3",
 		"husky": "^9.1.6",
 		"lint-staged": "^15.2.10",
 		"prisma": "^5.21.1",
