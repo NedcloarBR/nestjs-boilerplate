@@ -686,15 +686,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fastify/middie@npm:8.3.1":
-  version: 8.3.1
-  resolution: "@fastify/middie@npm:8.3.1"
+"@fastify/middie@npm:8.3.3":
+  version: 8.3.3
+  resolution: "@fastify/middie@npm:8.3.3"
   dependencies:
     "@fastify/error": "npm:^3.2.0"
     fastify-plugin: "npm:^4.0.0"
-    path-to-regexp: "npm:^6.1.0"
+    path-to-regexp: "npm:^6.3.0"
     reusify: "npm:^1.0.4"
-  checksum: 10c0/6ee8a09bd9ff3d7ba1fe46a838104cea6b79a31511fd331a5f68401b48f325c343726a9f25a0410c668a6193b5b82e0011e5847c2e51d4a97e0dc1d5633eade1
+  checksum: 10c0/802a1a51d25d2651fcdd223f058530cad8c8b55a9adb764bd47e55e4656d1c4b3ce71a58fe40c8307ddef56750ce0ba93b9df14ead5d01e2a6590b677ec393ab
   languageName: node
   linkType: hard
 
@@ -1013,17 +1013,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/platform-fastify@npm:^10.3.10":
-  version: 10.3.10
-  resolution: "@nestjs/platform-fastify@npm:10.3.10"
+"@nestjs/platform-fastify@npm:^10.4.5":
+  version: 10.4.5
+  resolution: "@nestjs/platform-fastify@npm:10.4.5"
   dependencies:
     "@fastify/cors": "npm:9.0.1"
     "@fastify/formbody": "npm:7.4.0"
-    "@fastify/middie": "npm:8.3.1"
-    fastify: "npm:4.28.0"
-    light-my-request: "npm:5.13.0"
-    path-to-regexp: "npm:3.2.0"
-    tslib: "npm:2.6.3"
+    "@fastify/middie": "npm:8.3.3"
+    fastify: "npm:4.28.1"
+    light-my-request: "npm:6.1.0"
+    path-to-regexp: "npm:3.3.0"
+    tslib: "npm:2.7.0"
   peerDependencies:
     "@fastify/static": ^6.0.0 || ^7.0.0
     "@fastify/view": ^7.0.0 || ^8.0.0
@@ -1034,7 +1034,7 @@ __metadata:
       optional: true
     "@fastify/view":
       optional: true
-  checksum: 10c0/e3b48d5bfdf906327bb2f9f7abce5808e879e1f84cf92785b45322e038dff85f4591e66fbbab7c1bd35b4b1b54a6fc5c1ee45ae706a4912a674a212a7d90c76f
+  checksum: 10c0/8ef08150e254e901f083efeefb54cd613745d6bab0e0e48d40910ddb889461493aa7822ef1b23851c5addff2ef7db062a77a07c7cfe16e69761f048f2afa6d81
   languageName: node
   linkType: hard
 
@@ -3765,6 +3765,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cookie@npm:^0.7.0":
+  version: 0.7.2
+  resolution: "cookie@npm:0.7.2"
+  checksum: 10c0/9596e8ccdbf1a3a88ae02cf5ee80c1c50959423e1022e4e60b91dd87c622af1da309253d8abdb258fb5e3eacb4f08e579dc58b4897b8087574eee0fd35dfa5d2
+  languageName: node
+  linkType: hard
+
 "core-util-is@npm:^1.0.3":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
@@ -4370,31 +4377,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify@npm:4.28.0":
-  version: 4.28.0
-  resolution: "fastify@npm:4.28.0"
-  dependencies:
-    "@fastify/ajv-compiler": "npm:^3.5.0"
-    "@fastify/error": "npm:^3.4.0"
-    "@fastify/fast-json-stringify-compiler": "npm:^4.3.0"
-    abstract-logging: "npm:^2.0.1"
-    avvio: "npm:^8.3.0"
-    fast-content-type-parse: "npm:^1.1.0"
-    fast-json-stringify: "npm:^5.8.0"
-    find-my-way: "npm:^8.0.0"
-    light-my-request: "npm:^5.11.0"
-    pino: "npm:^9.0.0"
-    process-warning: "npm:^3.0.0"
-    proxy-addr: "npm:^2.0.7"
-    rfdc: "npm:^1.3.0"
-    secure-json-parse: "npm:^2.7.0"
-    semver: "npm:^7.5.4"
-    toad-cache: "npm:^3.3.0"
-  checksum: 10c0/24307900a5ef5b8d6357d3cec40abf621859b8f6e3a046bfc5a45ec7fedec42c51bde0bb3c5913f7badd91d5d69a485e1f3e0e2310483103fabc472cb0e122cd
-  languageName: node
-  linkType: hard
-
-"fastify@npm:^4.28.1":
+"fastify@npm:4.28.1, fastify@npm:^4.28.1":
   version: 4.28.1
   resolution: "fastify@npm:4.28.1"
   dependencies:
@@ -5344,7 +5327,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"light-my-request@npm:5.13.0, light-my-request@npm:^5.11.0":
+"light-my-request@npm:6.1.0":
+  version: 6.1.0
+  resolution: "light-my-request@npm:6.1.0"
+  dependencies:
+    cookie: "npm:^0.7.0"
+    process-warning: "npm:^4.0.0"
+    set-cookie-parser: "npm:^2.6.0"
+  checksum: 10c0/f5d4349eae32ec261e452b4ae56a0ac94507ccdbb51ff0fbdea55174ca12510108e1114ab9cbc5248be31bea04f5f27d2d4424f6d6809e16318e0509e8aeee5b
+  languageName: node
+  linkType: hard
+
+"light-my-request@npm:^5.11.0":
   version: 5.13.0
   resolution: "light-my-request@npm:5.13.0"
   dependencies:
@@ -5897,7 +5891,7 @@ __metadata:
     "@nestjs/common": "npm:^10.0.0"
     "@nestjs/config": "npm:^3.2.3"
     "@nestjs/core": "npm:^10.0.0"
-    "@nestjs/platform-fastify": "npm:^10.3.10"
+    "@nestjs/platform-fastify": "npm:^10.4.5"
     "@nestjs/schematics": "npm:^10.0.0"
     "@nestjs/swagger": "npm:^7.4.0"
     "@nestjs/terminus": "npm:^10.2.3"
@@ -6229,10 +6223,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-to-regexp@npm:^6.1.0":
-  version: 6.2.2
-  resolution: "path-to-regexp@npm:6.2.2"
-  checksum: 10c0/4b60852d3501fd05ca9dd08c70033d73844e5eca14e41f499f069afa8364f780f15c5098002f93bd42af8b3514de62ac6e82a53b5662de881d2b08c9ef21ea6b
+"path-to-regexp@npm:3.3.0":
+  version: 3.3.0
+  resolution: "path-to-regexp@npm:3.3.0"
+  checksum: 10c0/ffa0ebe7088d38d435a8d08b0fe6e8c93ceb2a81a65d4dd1d9a538f52e09d5e3474ed5f553cb3b180d894b0caa10698a68737ab599fd1e56b4663d1a64c9f77b
+  languageName: node
+  linkType: hard
+
+"path-to-regexp@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "path-to-regexp@npm:6.3.0"
+  checksum: 10c0/73b67f4638b41cde56254e6354e46ae3a2ebc08279583f6af3d96fe4664fc75788f74ed0d18ca44fa4a98491b69434f9eee73b97bb5314bd1b5adb700f5c18d6
   languageName: node
   linkType: hard
 
@@ -6503,6 +6504,13 @@ __metadata:
   version: 3.0.0
   resolution: "process-warning@npm:3.0.0"
   checksum: 10c0/60f3c8ddee586f0706c1e6cb5aa9c86df05774b9330d792d7c8851cf0031afd759d665404d07037e0b4901b55c44a423f07bdc465c63de07d8d23196bb403622
+  languageName: node
+  linkType: hard
+
+"process-warning@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "process-warning@npm:4.0.0"
+  checksum: 10c0/5312a72b69d37a1b82ad03f3dfa0090dab3804a8fd995d06c28e3c002852bd82f5584217d9f4a3f197892bb2afc22d57e2c662c7e906b5abb48c0380c7b0880d
   languageName: node
   linkType: hard
 
@@ -6941,6 +6949,13 @@ __metadata:
   version: 2.6.0
   resolution: "set-cookie-parser@npm:2.6.0"
   checksum: 10c0/739da029f0e56806a103fcd5501d9c475e19e77bd8274192d7ae5c374ae714a82bba9a7ac00b0330a18227c5644b08df9e442240527be578f5a6030f9bb2bb80
+  languageName: node
+  linkType: hard
+
+"set-cookie-parser@npm:^2.6.0":
+  version: 2.7.0
+  resolution: "set-cookie-parser@npm:2.7.0"
+  checksum: 10c0/5ccb2d0389bda27631d57e44644319f0b77200e7c8bd1515824eb83dbd2d351864a29581f7e7f977a5aeb83c3ec9976e69b706a80ac654152fd26353011ffef4
   languageName: node
   linkType: hard
 
@@ -7557,6 +7572,13 @@ __metadata:
   version: 2.6.3
   resolution: "tslib@npm:2.6.3"
   checksum: 10c0/2598aef53d9dbe711af75522464b2104724d6467b26a60f2bdac8297d2b5f1f6b86a71f61717384aa8fd897240467aaa7bcc36a0700a0faf751293d1331db39a
+  languageName: node
+  linkType: hard
+
+"tslib@npm:2.7.0":
+  version: 2.7.0
+  resolution: "tslib@npm:2.7.0"
+  checksum: 10c0/469e1d5bf1af585742128827000711efa61010b699cb040ab1800bcd3ccdd37f63ec30642c9e07c4439c1db6e46345582614275daca3e0f4abae29b0083f04a6
   languageName: node
   linkType: hard
 
