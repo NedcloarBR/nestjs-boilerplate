@@ -34,6 +34,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular-devkit/core@npm:17.3.10":
+  version: 17.3.10
+  resolution: "@angular-devkit/core@npm:17.3.10"
+  dependencies:
+    ajv: "npm:8.12.0"
+    ajv-formats: "npm:2.1.1"
+    jsonc-parser: "npm:3.2.1"
+    picomatch: "npm:4.0.1"
+    rxjs: "npm:7.8.1"
+    source-map: "npm:0.7.4"
+  peerDependencies:
+    chokidar: ^3.5.2
+  peerDependenciesMeta:
+    chokidar:
+      optional: true
+  checksum: 10c0/1147ed2325738826e63990dc8ac4bc41851ca35cd9774b539e5f37b476c4d7b1c33eb7add17b0b4f29e561c0c67901df582aca60f8a8db30dc831a035dffa4f4
+  languageName: node
+  linkType: hard
+
 "@angular-devkit/core@npm:17.3.8":
   version: 17.3.8
   resolution: "@angular-devkit/core@npm:17.3.8"
@@ -79,6 +98,19 @@ __metadata:
     ora: "npm:5.4.1"
     rxjs: "npm:6.6.7"
   checksum: 10c0/7eaecf427363fdd31e26bbf4fd494ea1388ae1bc7058092b178b78f98431f1b28d4e316d3c9964d06ea0ce63286d55566f008d0bcefb3bea3574f3246cccedb0
+  languageName: node
+  linkType: hard
+
+"@angular-devkit/schematics@npm:17.3.10":
+  version: 17.3.10
+  resolution: "@angular-devkit/schematics@npm:17.3.10"
+  dependencies:
+    "@angular-devkit/core": "npm:17.3.10"
+    jsonc-parser: "npm:3.2.1"
+    magic-string: "npm:0.30.8"
+    ora: "npm:5.4.1"
+    rxjs: "npm:7.8.1"
+  checksum: 10c0/99966cb1d40891b6652a844c33b541581b38f0519366d046bc271e4b4617838ee23ad9a907beb82f1feb50b98707e890ffbe3acaf6a89cccdd54af35fd29bd2c
   languageName: node
   linkType: hard
 
@@ -1036,7 +1068,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/schematics@npm:^10.0.0, @nestjs/schematics@npm:^10.0.1":
+"@nestjs/schematics@npm:^10.0.1":
   version: 10.1.2
   resolution: "@nestjs/schematics@npm:10.1.2"
   dependencies:
@@ -1048,6 +1080,21 @@ __metadata:
   peerDependencies:
     typescript: ">=4.8.2"
   checksum: 10c0/a73b31c07d63a152da717cde3314d7baf3962e0b0485fb7b36b93f89c79f3a3d02a4899f10513ba5e5f17dd75f6237d93178e89664dd2730e6231e809f30d139
+  languageName: node
+  linkType: hard
+
+"@nestjs/schematics@npm:^10.2.2":
+  version: 10.2.2
+  resolution: "@nestjs/schematics@npm:10.2.2"
+  dependencies:
+    "@angular-devkit/core": "npm:17.3.10"
+    "@angular-devkit/schematics": "npm:17.3.10"
+    comment-json: "npm:4.2.5"
+    jsonc-parser: "npm:3.3.1"
+    pluralize: "npm:8.0.0"
+  peerDependencies:
+    typescript: ">=4.8.2"
+  checksum: 10c0/c54c90a282978bd612154737e97c6ed5e9bd435178863b76f520c5e26e75ba070323e6c2dbdadc1485fa486ee35be837855813e4961b8da0eee921225a8e276f
   languageName: node
   linkType: hard
 
@@ -3710,6 +3757,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"comment-json@npm:4.2.5":
+  version: 4.2.5
+  resolution: "comment-json@npm:4.2.5"
+  dependencies:
+    array-timsort: "npm:^1.0.3"
+    core-util-is: "npm:^1.0.3"
+    esprima: "npm:^4.0.1"
+    has-own-prop: "npm:^2.0.0"
+    repeat-string: "npm:^1.6.1"
+  checksum: 10c0/e22f13f18fcc484ac33c8bc02a3d69c3f9467ae5063fdfb3df7735f83a8d9a2cab6a32b7d4a0c53123413a9577de8e17c8cc88369c433326799558febb34ef9c
+  languageName: node
+  linkType: hard
+
 "compare-func@npm:^2.0.0":
   version: 2.0.0
   resolution: "compare-func@npm:2.0.0"
@@ -5896,7 +5956,7 @@ __metadata:
     "@nestjs/config": "npm:^3.2.3"
     "@nestjs/core": "npm:^10.4.5"
     "@nestjs/platform-fastify": "npm:^10.4.5"
-    "@nestjs/schematics": "npm:^10.0.0"
+    "@nestjs/schematics": "npm:^10.2.2"
     "@nestjs/swagger": "npm:^7.4.2"
     "@nestjs/terminus": "npm:^10.2.3"
     "@nestjs/testing": "npm:^10.4.5"
@@ -7545,13 +7605,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.6.3, tslib@npm:^2.1.0":
-  version: 2.6.3
-  resolution: "tslib@npm:2.6.3"
-  checksum: 10c0/2598aef53d9dbe711af75522464b2104724d6467b26a60f2bdac8297d2b5f1f6b86a71f61717384aa8fd897240467aaa7bcc36a0700a0faf751293d1331db39a
-  languageName: node
-  linkType: hard
-
 "tslib@npm:2.7.0":
   version: 2.7.0
   resolution: "tslib@npm:2.7.0"
@@ -7563,6 +7616,13 @@ __metadata:
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: 10c0/69ae09c49eea644bc5ebe1bca4fa4cc2c82b7b3e02f43b84bd891504edf66dbc6b2ec0eef31a957042de2269139e4acff911e6d186a258fb14069cd7f6febce2
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.1.0":
+  version: 2.6.3
+  resolution: "tslib@npm:2.6.3"
+  checksum: 10c0/2598aef53d9dbe711af75522464b2104724d6467b26a60f2bdac8297d2b5f1f6b86a71f61717384aa8fd897240467aaa7bcc36a0700a0faf751293d1331db39a
   languageName: node
   linkType: hard
 
