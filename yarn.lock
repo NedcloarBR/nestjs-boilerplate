@@ -1335,12 +1335,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/context-async-hooks@npm:1.26.0, @opentelemetry/context-async-hooks@npm:^1.26.0":
+"@opentelemetry/context-async-hooks@npm:1.26.0":
   version: 1.26.0
   resolution: "@opentelemetry/context-async-hooks@npm:1.26.0"
   peerDependencies:
     "@opentelemetry/api": ">=1.0.0 <1.10.0"
   checksum: 10c0/76ed53be50a472cbfe26a62620cb2a34f031474d08d302d31eb95d71cac2ed1567c6fa302c7ac5498e9d467d7d8e64f8d0e58c5c8b7bd987a352baafe5d9b213
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/context-async-hooks@npm:^1.27.0":
+  version: 1.27.0
+  resolution: "@opentelemetry/context-async-hooks@npm:1.27.0"
+  peerDependencies:
+    "@opentelemetry/api": ">=1.0.0 <1.10.0"
+  checksum: 10c0/dcb5eebf2e9a3a941eef6b055886545305503caba5293db5c826efebb07101491732bffeac836e9b0b8588a827f8921df78ef027f45942be3b641e8666549588
   languageName: node
   linkType: hard
 
@@ -6115,7 +6124,7 @@ __metadata:
     "@nestjs/testing": "npm:^10.4.5"
     "@opentelemetry/api": "npm:^1.9.0"
     "@opentelemetry/auto-instrumentations-node": "npm:^0.51.0"
-    "@opentelemetry/context-async-hooks": "npm:^1.26.0"
+    "@opentelemetry/context-async-hooks": "npm:^1.27.0"
     "@opentelemetry/core": "npm:^1.26.0"
     "@opentelemetry/exporter-prometheus": "npm:^0.53.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:^0.53.0"
