@@ -1355,6 +1355,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@opentelemetry/core@npm:1.27.0":
+  version: 1.27.0
+  resolution: "@opentelemetry/core@npm:1.27.0"
+  dependencies:
+    "@opentelemetry/semantic-conventions": "npm:1.27.0"
+  peerDependencies:
+    "@opentelemetry/api": ">=1.0.0 <1.10.0"
+  checksum: 10c0/0f9dea15f146c04debb3f30b133d4d0886b2bae3f3d9696362b2c0b0c4ec89c1da759477f5bce0c50e7c6d57572a7215ec4feb38a6dc2c25ae61089f51f23134
+  languageName: node
+  linkType: hard
+
 "@opentelemetry/exporter-logs-otlp-grpc@npm:0.53.0":
   version: 0.53.0
   resolution: "@opentelemetry/exporter-logs-otlp-grpc@npm:0.53.0"
@@ -2155,7 +2166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/resources@npm:1.26.0, @opentelemetry/resources@npm:^1.10.0, @opentelemetry/resources@npm:^1.10.1, @opentelemetry/resources@npm:^1.24.0, @opentelemetry/resources@npm:^1.26.0, @opentelemetry/resources@npm:^1.8.0":
+"@opentelemetry/resources@npm:1.26.0, @opentelemetry/resources@npm:^1.10.0, @opentelemetry/resources@npm:^1.10.1, @opentelemetry/resources@npm:^1.24.0, @opentelemetry/resources@npm:^1.8.0":
   version: 1.26.0
   resolution: "@opentelemetry/resources@npm:1.26.0"
   dependencies:
@@ -2164,6 +2175,18 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ">=1.0.0 <1.10.0"
   checksum: 10c0/62ffbf7edee8676055661cf608b32a52bfa46fedb1a88830b4d4d0faf6664edbcbf7922034d3690d11fe9ebef9d9f5ffcb05645e8c7b27c707bf57d5289617e9
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/resources@npm:^1.27.0":
+  version: 1.27.0
+  resolution: "@opentelemetry/resources@npm:1.27.0"
+  dependencies:
+    "@opentelemetry/core": "npm:1.27.0"
+    "@opentelemetry/semantic-conventions": "npm:1.27.0"
+  peerDependencies:
+    "@opentelemetry/api": ">=1.0.0 <1.10.0"
+  checksum: 10c0/a5ddb80f36dd094d6bd67e045e3a0e464fe533dde47f03c18da73720e99e48b67503d66a642e7cb6ce15e96bf0fa8416b976ec82ffbaf96d0a65396ab69eb39d
   languageName: node
   linkType: hard
 
@@ -6120,7 +6143,7 @@ __metadata:
     "@opentelemetry/exporter-prometheus": "npm:^0.53.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:^0.53.0"
     "@opentelemetry/propagator-b3": "npm:^1.26.0"
-    "@opentelemetry/resources": "npm:^1.26.0"
+    "@opentelemetry/resources": "npm:^1.27.0"
     "@opentelemetry/sdk-node": "npm:^0.53.0"
     "@opentelemetry/sdk-trace-base": "npm:^1.26.0"
     "@opentelemetry/semantic-conventions": "npm:^1.27.0"
