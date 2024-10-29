@@ -1364,7 +1364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/core@npm:1.27.0":
+"@opentelemetry/core@npm:1.27.0, @opentelemetry/core@npm:^1.27.0":
   version: 1.27.0
   resolution: "@opentelemetry/core@npm:1.27.0"
   dependencies:
@@ -6148,7 +6148,7 @@ __metadata:
     "@opentelemetry/api": "npm:^1.9.0"
     "@opentelemetry/auto-instrumentations-node": "npm:^0.51.0"
     "@opentelemetry/context-async-hooks": "npm:^1.27.0"
-    "@opentelemetry/core": "npm:^1.26.0"
+    "@opentelemetry/core": "npm:^1.27.0"
     "@opentelemetry/exporter-prometheus": "npm:^0.53.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:^0.53.0"
     "@opentelemetry/propagator-b3": "npm:^1.26.0"
