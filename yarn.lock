@@ -1070,9 +1070,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/platform-fastify@npm:^10.4.5":
-  version: 10.4.5
-  resolution: "@nestjs/platform-fastify@npm:10.4.5"
+"@nestjs/platform-fastify@npm:^10.4.6":
+  version: 10.4.6
+  resolution: "@nestjs/platform-fastify@npm:10.4.6"
   dependencies:
     "@fastify/cors": "npm:9.0.1"
     "@fastify/formbody": "npm:7.4.0"
@@ -1091,7 +1091,7 @@ __metadata:
       optional: true
     "@fastify/view":
       optional: true
-  checksum: 10c0/8ef08150e254e901f083efeefb54cd613745d6bab0e0e48d40910ddb889461493aa7822ef1b23851c5addff2ef7db062a77a07c7cfe16e69761f048f2afa6d81
+  checksum: 10c0/968f3698c25bff08eb6e159bd7a9de5a1e41ce697af1d6f542a17ed4cf3fbe36b14badc7cd5a411dd5ceb1296def26a398cf8aa86b60fcbb0d01fafe2524ccbd
   languageName: node
   linkType: hard
 
@@ -6242,7 +6242,7 @@ __metadata:
     "@nestjs/common": "npm:^10.4.5"
     "@nestjs/config": "npm:^3.3.0"
     "@nestjs/core": "npm:^10.4.5"
-    "@nestjs/platform-fastify": "npm:^10.4.5"
+    "@nestjs/platform-fastify": "npm:^10.4.6"
     "@nestjs/schematics": "npm:^10.2.2"
     "@nestjs/swagger": "npm:^7.4.2"
     "@nestjs/terminus": "npm:^10.2.3"
