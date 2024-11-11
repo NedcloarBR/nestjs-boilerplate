@@ -2782,12 +2782,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.8.1":
-  version: 22.8.1
-  resolution: "@types/node@npm:22.8.1"
+"@types/node@npm:^22.9.0":
+  version: 22.9.0
+  resolution: "@types/node@npm:22.9.0"
   dependencies:
     undici-types: "npm:~6.19.8"
-  checksum: 10c0/83550fdf72a7db5b55eceac3f4fb038844eaee20202bdd2297a8248370cfa08317bda1605b781a8043eda4f173b75e73632e652fc85509eb14dfef78fa17337f
+  checksum: 10c0/3f46cbe0a49bab4ba30494025e4c8a6e699b98ac922857aa1f0209ce11a1313ee46e6808b8f13fe5b8b960a9d7796b77c8d542ad4e9810e85ef897d5593b5d51
   languageName: node
   linkType: hard
 
@@ -6260,7 +6260,7 @@ __metadata:
     "@opentelemetry/semantic-conventions": "npm:^1.27.0"
     "@prisma/client": "npm:^5.21.1"
     "@sesamecare-oss/opentelemetry-node-metrics": "npm:^1.1.0"
-    "@types/node": "npm:^22.8.1"
+    "@types/node": "npm:^22.9.0"
     "@vitest/coverage-v8": "npm:^2.1.3"
     axios: "npm:^1.7.7"
     class-transformer: "npm:^0.5.1"
