@@ -46,7 +46,7 @@
 		"@opentelemetry/context-async-hooks": "^1.27.0",
 		"@opentelemetry/core": "^1.27.0",
 		"@opentelemetry/exporter-prometheus": "^0.53.0",
-		"@opentelemetry/exporter-trace-otlp-http": "^0.54.0",
+		"@opentelemetry/exporter-trace-otlp-http": "^0.56.0",
 		"@opentelemetry/propagator-b3": "^1.27.0",
 		"@opentelemetry/resources": "^1.27.0",
 		"@opentelemetry/sdk-node": "^0.55.0",
