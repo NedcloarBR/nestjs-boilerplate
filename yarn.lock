@@ -950,14 +950,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/axios@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@nestjs/axios@npm:3.1.1"
+"@nestjs/axios@npm:^3.1.3":
+  version: 3.1.3
+  resolution: "@nestjs/axios@npm:3.1.3"
   peerDependencies:
     "@nestjs/common": ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
     axios: ^1.3.1
     rxjs: ^6.0.0 || ^7.0.0
-  checksum: 10c0/0c9244d32574610f6c63caa7a563c66640e83cd8a7373ca6d7173a37af11c02ee386af7ad7e808cf9a73b69df70105be930b5baa82558213227d0ba50d36bf10
+  checksum: 10c0/3b3f5ecc9a17317daafbf6ffe0cb792c5bd44d9fe7c6e2bda5d87163b9c2ed05a71a49d4e2d810c455eaa94f25e85e63673da21d674917bd9c16dfb937771109
   languageName: node
   linkType: hard
 
@@ -6527,7 +6527,7 @@ __metadata:
     "@commitlint/config-angular": "npm:^19.5.0"
     "@fastify/static": "npm:^8.0.2"
     "@nedcloarbr/biome-config": "npm:^1.6.0"
-    "@nestjs/axios": "npm:^3.1.1"
+    "@nestjs/axios": "npm:^3.1.3"
     "@nestjs/cli": "npm:^10.4.5"
     "@nestjs/common": "npm:^10.4.8"
     "@nestjs/config": "npm:^3.3.0"
