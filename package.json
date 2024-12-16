@@ -71,7 +71,7 @@
 		"@nestjs/cli": "^10.4.5",
 		"@nestjs/schematics": "^10.2.3",
 		"@nestjs/testing": "^10.4.6",
-		"@types/node": "^22.9.1",
+		"@types/node": "^22.10.2",
 		"@vitest/coverage-v8": "^2.1.5",
 		"husky": "^9.1.6",
 		"lint-staged": "^15.2.10",
